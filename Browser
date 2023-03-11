@@ -20,3 +20,13 @@ and it request the resource which is given in the url
 then the resource is return back to the client browser and
 the resource is displayed.
 
+HTML contains - Contents , Structures and URL's
+✔️ Media - Content
+✔️ Stylesheet - Appearance
+✔️ JavaScript - Behaviour
+Internal Data Structures publish - Document Object Model(DOM)
+
+
+
+🎗️DOCUMENT OBJECT MODEL (DOM)
+
