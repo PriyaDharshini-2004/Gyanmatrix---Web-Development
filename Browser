@@ -30,3 +30,50 @@ Internal Data Structures publish - Document Object Model(DOM)
 
 🎗️DOCUMENT OBJECT MODEL (DOM)
 
+✔️ Document - file
+✔️ Object - tagelements
+✔️ Model - layer structure 
+
+✔️ DOM represents the content of an XML or HTML document as a tree structure.
+✔️ Programming interface or an API.
+✔️ Easily read,access and update the content of the document.
+✔️ Object-Oriented representation of the web page.It can be modified with a scripting languages such as javascript.
+
+
+✔️ All HTML elements can be accessed through the XML DOM.
+
+📌 MARKUP TEST : 
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Page Title</title>
+<body>
+   <h1>This is a Heading</h1>
+   <p>This is a paragraph.</p>
+   <p>This is another paragraph.</p>
+</body>
+</html>
+
+
+📌 DOCUMENT OBJECT MODEL (DOM) :
+
+|-DOCTYPE: html
+|-HTML lang="en"
+ |--HEAD
+ | |----META charset="utf-8"
+ | |----#text:
+ | |----TITLE
+ | |------#text: Page Title
+ | |----#text:
+ |-BODY
+   |--#text:
+   |--H1
+   | |----#text: This is a Heading
+   |--#text:
+   |--P
+   | |----#text: This is a paragraph.
+   |--#text:
+   |--P
+   | |----#text: This is another paragraph.
+   |--#text:
